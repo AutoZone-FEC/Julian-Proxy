@@ -1,3 +1,7 @@
+#notreviewcomponent{
+  display: none;
+}
+
 body{
   background-color: #e5e5e5;
   margin: 0;
@@ -157,7 +161,7 @@ body{
   float: left;
 }
 
-.main{
+.mainarea{
   background-color: white;
   height: 600px;
   width: 1150px;
@@ -348,3 +352,393 @@ body{
 .bottomimage{
   width: 100%;
 }
+
+/* julian css */
+.checkout{
+  height: 300px;
+  width: 200px;
+  background-color: #f2f2f0;
+  padding: 10px;
+  padding-top: 20px;
+}
+.pricetext{
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.pricecost{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  /* font-weight: bold; */
+  color: #f1731f;
+  padding-left: 60px;
+  align-self: right;
+}
+.addToCart{
+  padding: 8px;
+  width: 160px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: #f56607;
+  border-radius: 5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(255, 255, 255, 0.25) inset,
+    0 0 0 rgba(143, 143, 143, 0.5) inset,
+    0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+    0 -1.25rem 1.25rem rgba(139, 139, 139, 0.3) inset,
+    0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+  /* transition: all 0.2s linear 0s; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.addText{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.arrow{
+  width: 0;
+  height: 0;
+  border-left: 5px solid white;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  float: right;
+  display: block;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.earnRewards{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px lightgray;
+  line-height: 1.5;
+}
+.orange{
+ color: #f1731f;
+}
+.link:hover{
+  cursor: pointer;
+}
+.linkunderline:hover{
+  text-decoration: underline;
+}
+.hotDeals{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: slategray;
+  padding-bottom: 10px;
+}
+.arrowdown{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid slategray;;
+  border-right: 5px solid transparent;
+  float: right;
+  display: block;
+  margin-top: 4px;
+  margin-right: 25px;
+}
+.freeshipping{
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: slategray;
+}
+.shippingtext{
+  padding-left: 30px;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: slategray;
+  line-height: 1.8;
+}
+.shippingimage{
+  height: 25px;
+  float: left;
+}
+.checkimg{
+  height: 20px;
+}
+.inCart{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.inyourcart{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1731f;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* david css */
+.background-render{
+  width: 100%; 
+  height: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  top: 0;
+  left: 0;
+}
+.inside-modal{
+  display: flex; 
+  left:5px;
+  flex-direction: row; 
+  justify-content: space-between; 
+  width: 760px; 
+  height: 360px; 
+  background-color: white;
+  margin-left: 5px;   
+  
+}
+.middle-modal{
+  background-image: url('http://autozone.com/images/dialog/dialog-border-pattern.png');
+  position: absolute;
+  display:flex;
+  width:770px;
+  height:370px;
+  align-items: center;   
+}
+.outer-modal{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 795px;
+  height: 405px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.modal-scroll{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  padding: 5px;
+  width: 80px;
+  text-align:center;
+  border-right: dotted 1px black;
+}
+.modal-top{
+  position: absolute;
+  top: -25px;
+  display:flex;
+  flex-direction: column;
+  background: url("http://autozone.com/images/dialog/dialog-header-bg.png") bottom right no-repeat;
+  width: 795px;
+  height: 35px;  
+}
+.modal-header-text{
+  position:flex;
+  top:20px;
+  left:10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  padding: 6px 0 0 12px;
+  font-weight: bold;
+}
+.modal-button{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: url("http://autozone.com/images/dialog/dialog-header-bg.png") bottom right no-repeat;
+  border: none;
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;   
+}
+.modal-pics{
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  padding: 2px;
+}
+.modal-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-box {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  overflow-x: scroll;
+  margin:0;
+  padding: 0;
+  
+  }
+  .flex-box img{
+    height: 40px;
+    width: 40px;
+    padding:2px;
+    border: 1px solid black; 
+  }
+  .middlebuttons{
+    text-align:center; 
+  }
+  .viewlarger{
+    color:white;
+    background-color: darkslategrey;
+  }
+  .vehiclespecific{
+    border-color: orange;
+  }
+  .middlespan{
+    padding:41px;
+  }
+  .flex-box li{
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+    
+  }
+  .main{
+    width: 312px;
+    height: 300px;
+    
+  }
+  .parentpic{
+    text-align: center;
+    object-fit: contain;
+    
+  }
+  .childpics{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    
+  }
+  .arrow-right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border: solid gray;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    height:4px;
+    width: 4px;
+  }
+  .arrow-button{
+    border: none;
+    outline:none;
+    cursor: pointer;
+    height:10px;
+    margin-bottom: 10px;
+    
+  }
+  .arrow-left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border: solid gray;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    height:4px;
+    width: 4px;
+  }
+
+/*  Matt CSS */
+.orange-rhombus {
+  float: left;
+  display: inline;
+}
+.other-customers-parent-div {
+  /*position: fixed;*/
+  height: 227px;
+  width: 1150px !important;
+  background-color: white;
+  background-image: url("images/orange.png");
+  background-repeat: no-repeat;
+  background-position-x: 18px;
+  background-position-y: 7px;
+  font-size: 10px;
+  padding-top: 15px;
+  padding-left: 35px;
+  /* margin: 50px; */
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+.recommended-item-container {
+  /*position: fixed;*/
+  float: left;
+  align-content: right;
+  padding-top: 18px;
+  display: inline;
+  padding-left: 20px;
+}
+.recommended-item-container:hover {
+  cursor: pointer;
+}
+.recommended-item-description-parent {
+  width: 118%;
+  position: relative;
+  top: 90px;
+  left: -35px;
+  text-align: center;
+  /* padding-left: 20px; */
+}
+.recommended-item-description {
+  text-align: center;
+  float: left;
+  width: 12.5%;
+  color: slategrey;
+  font-size: 14px;
+  top: -10px;
+  margin-right: 20px;
+}
+.recommended-item-description:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.item-description-parent {
+  width: 100%;
+  padding-left: 20px;
+}
+
+/* danielle css */
+.dropdowntext {
+	z-index: 1001;
+        width: 298px;
+}
+
+.searchicon {
+	top: 40px;
+	left: 260px;
+}
+
+.innerContainer {
+	background-color: white;
+}
+
+#nav{
+  background-color: white;
+}
+
+._2k0ucJrjG3-b7vgyOqWpR3 {
+	background-color: white;
+}
+
+.yXE5DW_E9eyvw_RkzgOqF {
+	z-index: 1001;
+        width: 298px;
+}
+

@@ -10,13 +10,10 @@ import Tabs from '../src/components/Tabs';
 import CoreParts from '../src/components/CoreParts';
 import Bottom from '../src/components/Bottom';
 
-// ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Ad />, document.getElementById('ad'))
-ReactDOM.render(<Nav />, document.getElementById('nav'))
 ReactDOM.render(<Bar />, document.getElementById('bar'))
 ReactDOM.render(<Fast />, document.getElementById('fast'))
 ReactDOM.render(<Main />, document.getElementById('main'))
-ReactDOM.render(<Related />, document.getElementById('related'))
-ReactDOM.render(<Tabs />, document.getElementById('tabs'))
+ReactDOM.render(<Related />, document.getElementById('relatedshell'))
 ReactDOM.render(<CoreParts />, document.getElementById('core'))
 ReactDOM.render(<Bottom />, document.getElementById('bottom'))

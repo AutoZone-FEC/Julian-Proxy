@@ -14,7 +14,7 @@ export default class Tabs extends Component{
     render(){
         return(
         <div id="tabs">
-           <img src = "https://snipboard.io/PriFY4.jpg"/>
+           {/* <img src = "https://snipboard.io/PriFY4.jpg"/> */}
         </div>
     )
   }

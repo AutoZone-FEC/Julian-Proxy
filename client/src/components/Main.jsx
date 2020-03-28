@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { render } from 'react-dom';
-import Image from './Image';
 import Star from './Star';
 import Checkout from './Checkout';
 
@@ -16,7 +15,7 @@ export default class Main extends Component{
     
     render(){
         return(
-        <div className="main">
+        <div className="mainarea">
            <div className = "breadcrumbs">
                <span className = "breadcrumb text link orange">Home </span>/
                <span className = "breadcrumb text link orange">Ships</span>/
@@ -29,11 +28,9 @@ export default class Main extends Component{
             {this.state.product}
             </h1>
             <div>
-            <Image />
+            <div id="Image" className="image"></div>
             <div><img className = "padleft addvehicle" src="https://files.slack.com/files-pri/T2SVC7RB3-FV8R41M3P/addvehicle.png"/></div>
-            <div className = "checkoutarea">
-            <Checkout />
-            </div>
+            <div id='checkout'></div>
             <div><span className = "padleft part text gray bold">Part Number: <span className="light">112-358</span></span></div>
             <div><span className = "padleft part text gray bold">Alternate Part Number: <span className="light">P1R4T3</span></span></div>
             <div><span className = "padleft part text gray bold">Warranty: <span className="light orange link">Limited Lifetime</span></span></div>

@@ -14,7 +14,7 @@ export default class Checkout extends Component{
     render(){
         return(
         <div className = "checkout">
-            <img src="https://snipboard.io/kw0g7D.jpg"/>
+            {/* <img src="https://snipboard.io/kw0g7D.jpg"/> */}
         </div>
     )
   }
