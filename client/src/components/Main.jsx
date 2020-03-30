@@ -29,7 +29,7 @@ export default class Main extends Component{
             </h1>
             <div>
             <div id="Image" className="image"></div>
-            <div><img className = "padleft addvehicle" src="https://files.slack.com/files-pri/T2SVC7RB3-FV8R41M3P/addvehicle.png"/></div>
+            <div><img className = "padleft addvehicle" src="/Images/image.png"/></div>
             <div id='checkout'></div>
             <div><span className = "padleft part text gray bold">Part Number: <span className="light">112-358</span></span></div>
             <div><span className = "padleft part text gray bold">Alternate Part Number: <span className="light">P1R4T3</span></span></div>

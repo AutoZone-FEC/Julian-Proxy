@@ -15,7 +15,7 @@ export default class Fast extends Component{
         return(
           
         <div className = "delivery">
-           <div className = "deliverytext text"><img className = "ship" src="https://files.slack.com/files-pri/T2SVC7RB3-FUYBN0ECA/pirateshipthing.png"/>Need it Fast? Free NEXT DAY DELIVERY on Eligible Items. On orders over $35*.<span className="italic details link underline">See Details</span></div> 
+           <div className = "deliverytext text"><img className = "ship" src="../Images/pirateshipthing.png"/>Need it Fast? Free NEXT DAY DELIVERY on Eligible Items. On orders over $35*.<span className="italic details link underline">See Details</span></div> 
         </div>
           
     )

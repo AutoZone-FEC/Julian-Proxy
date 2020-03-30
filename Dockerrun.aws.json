@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "comatthewb/arrtozone-proxy"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "3307"
+    }
+  ]
+}

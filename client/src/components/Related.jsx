@@ -14,8 +14,8 @@ export default class Related extends Component{
     render(){
         return(
             <div>
-        <div id="related" className = "related"></div>
-        <div id="related" className = "related"></div>
+                <div id="related" className = "related"></div>
+                <div id="related2" className = "related"></div>
             </div>
 
     )
